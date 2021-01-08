@@ -27,15 +27,15 @@ require (
 	k8s.io/api v0.20.1
 	k8s.io/apimachinery v0.20.1
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
-	k8s.io/helm v2.16.10+incompatible
+	k8s.io/helm v2.17.0+incompatible
 	knative.dev/pkg v0.0.0-20201002052829-735a38c03260
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
+	github.com/jenkins-x/go-scm => github.com/jenkins-x/go-scm v1.5.203
 	github.com/tektoncd/pipeline => github.com/jenkins-x/pipeline v0.3.2-0.20201002150609-ca0741e5d19a
 	k8s.io/api => k8s.io/api v0.19.4
 	k8s.io/apimachinery => k8s.io/apimachinery v0.19.4
 	k8s.io/client-go => k8s.io/client-go v0.19.2
-	github.com/jenkins-x/go-scm => github.com/jenkins-x/go-scm v1.5.203
 )
